@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: ronix;
+  src: url(RONIX.ttf);
+}
+
+@font-face {
+  font-family: tex;
+  src: url(texgyreadventor-bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+  background: #111;
+}
+
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  background: #dcdcdc;
+}
+
+.logoName {
+  font-family: ronix, sans-serif;
+  color: white;
+  font-size: 5rem;
+  width: 50vw;
+}
+
+.tagline {
+  color: #111;
+  font-family: ronix, sans-serif;
+  /* font-family: good, sans-serif; */
+  font-size: 2.2rem;
+  word-spacing: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background: #d3cce3;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 100vw;
+  height: 80vh;
+  background: #111;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > h3{
+  font-family: poppins, sans-serif;
+  color: white;
+  font-size: larger;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background: lightblue;
+  left: 0px !important;
+  overflow: hidden;
+}
+
+.images {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  background: lightblue;
+  position: relative;
+  top: -8%;
+  z-index: 1;
+  /* overflow: hidden; */
+}
+
+img {
+  height: 44vh;
+  width: 36vw;
+}
+
+.round1 {
+  width: 150vw;
+  height: 30vh;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: lightblue;
+  z-index: 20;
+  position: relative;
+  left: -25%;
+  color: #111;
+}
+
+.round2 {
+  width: 150vw;
+  height: 25vh;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background: lightblue;
+  z-index: 20;
+  position: relative;
+  left: -25%;
+  top: -15%;
+}
+
+/* techonology page */
+
+.technologyPage {
+  width: 100%;
+  height: 100vh;
+  background: #111;
+  position: relative;
+  color: lightblue;
+  /* left: 1%; */
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: tex, sans-serif;
+  font-size: 3rem;
+}
+
+.techHeading {
+  padding: 25px 0 0 0;
+}
+
+.techDetails {
+  width: 90%;
+  height: 80%;
+  /* background: red; */
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3vh 3vw;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 10px;
+}
+
+.techParts {
+  width: 85%;
+  height: 80%;
+  background: white;
+  /* margin: 2.5vh 2.5vw; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5vw;
+  border-radius: 5px;
+}
+
+.techParts > img {
+  width: 60px;
+  height: 60px;
+  margin: 0 0 0 50px;
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+
+.techParts > h3 {
+  font-family: poppins, sans-serif;
+  color: #111;
+  font-size: larger;
+}
+
+.techParts:nth-child(2n + 1) {
+  /* background: white; */
+  flex-direction: row-reverse;
+  justify-content: end;
+  margin-left: 4.35vw;
+}
+
+.techParts:nth-child(2n + 1) > img {
+  margin: 0 50px 0 0;
+}
+
+.techParts:nth-child(8) img {
+  /* margin-top: 20px; */
+ 
+}
